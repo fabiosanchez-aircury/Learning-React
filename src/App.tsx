@@ -1,15 +1,11 @@
-import { useState } from "react";
-import Demo from "./components/10-Fetching_Data";
+import Counter from "./components/11-Counter";
 
-
-function App(){
-  const [isVisible, changeVisibility] = useState(false);
-
+function App() {
   return (
-    <>
-      <Demo></Demo>
-    </>
-  )
+    <div className="container-sm">
+      <Counter title="First age"></Counter>
+    </div>
+  );
 }
 
 export default App;
